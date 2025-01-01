@@ -8,7 +8,7 @@
         my-name = "newyear";
         my-buildInputs = with pkgs; [ figlet lolcat ];
         my-script = pkgs.writeShellScriptBin my-name ''
-        figlet Happy new year 2025! At least Something more than goarnix. | lolcat
+        figlet Happy new year 2025! At least Something more than GOARNIX. | lolcat
         '';
       in rec {
         defaultPackage = packages.newyear;
